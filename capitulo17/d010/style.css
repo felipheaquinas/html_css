@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'exemplo';
+    src: url(./fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3cdc83, #174f30);
+    color: white;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.431);
+}
+
+header > h1 {
+    margin: 0px;
+    text-align: center;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > nav > a {
+    text-decoration: none;
+    padding: 0px 5px;
+    color: white;
+}
+
+header > nav > a:hover {
+    background-color: #174f30;
+    padding: 0px 5px;
+    border-radius: 30px;
+}
+
+main {
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    height: 2400px;
+    padding-top: 18.72px;
+    margin: auto;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.431);
+    border-radius: 0px 0px 20px 20px;
+}
+
+main > section > article > h1 {
+    font-family: 'exemplo';
+    margin-top: 0px;
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > section > article > h1 {
+    margin-left: 20px;
+    color: #174f30;
+}
+
+main > section > article > p {
+    margin: 18.72px 20px;
+}
+
+.especial > article > h1 {
+    background-image: linear-gradient(to right, #77f7865f, white);
+    padding-left: 5px;
+    color: #174f30;
+}
+
+.especial > article > picture > img {
+    width: 100%;
+}
+
+.especial > article > img {
+    display: block;
+    margin: auto;
+}
+
+main > section#video {
+    background-color: #174f30;
+    width: 100%;
+    padding: 50px 0px;
+
+}
+
+main > section > iframe {
+    display: block;
+    margin: auto;
+}
+
+main > section#extra > article{
+    background-color: #b2fcd2;
+    margin: 20px;
+    border-radius: 20px;
+    height: 471px;
+}
+
+main > section#extra > p {
+    margin-left: 40px;
+}
+
+#extra > article > ul{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#extra > article > ul > li::before {
+    content: url(./imagens/Colebemis-Feather-Check.16.png) "    ";   
+}
+
+#extra > article > ul > li > a {
+    color: black;
+}
+
+main > section > article > h2 {
+    background-color: #3cdc83;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links::after {
+    content: "  " url(./imagens/Colebemis-Feather-Link.16.png);
+    
+}
+
+footer {
+    background-color: #174f30;
+    margin-top: 16px;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    margin: 0px;
+
+}
+
+footer > p > span {
+    font-weight: bolder;
+}
+
+.destaque {
+    color: #12944d;
+    font-weight: bolder;
+}

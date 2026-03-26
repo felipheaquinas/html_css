@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*
+    # para id=
+    . para class=
+
+*/
+
+body {
+    background-color: rgb(155, 255, 255);
+    font-family: monospace;
+}
+
+ #titulo {
+    background-color: aquamarine;
+    color: rgb(0, 45, 248);
+    border: 1px solid black;
+    text-align: center;
+ }
+
+.basico {
+    color: rgb(18, 204, 18) ;
+
+}
+
+.intermediario {
+    color: rgb(197, 197, 40);
+
+}
+
+.avancado {
+    color: rgb(190, 24, 24);
+
+}
